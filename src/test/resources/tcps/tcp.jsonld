@@ -1,0 +1,69 @@
+{
+  "@context" : [
+    "http://purl.imsglobal.org/ctx/lti/v2/ToolConsumerProfile",
+    {
+      "tcp" : "http://ltiapps.net/test/tc-profile.php/4f3c348a7e040a0df3a95f1241250bc3#"
+    }
+  ],
+  "@type" : "ToolConsumerProfile",
+  "@id" : "http://ltiapps.net/test/tc-profile.php/4f3c348a7e040a0df3a95f1241250bc3",
+  "lti_version" : "LTI-2p0",
+  "guid" : "4f3c348a7e040a0df3a95f1241250bc3",
+  "product_instance" : {
+    "guid" : "vle.uni.ac.uk",
+    "product_info" : {
+      "product_name" : {
+        "default_value" : "ltiapps.net",
+        "key" : "product.name"
+      },
+      "product_version" : "1.2",
+      "product_family" : {
+        "code" : "jisc",
+        "vendor" : {
+          "code" : "celtic-project.org",
+          "vendor_name" : {
+            "default_value" : "ceLTIc: Creating Environments for Learning using Tightly Integrated Components",
+            "key" : "product.vendor.name"
+          },
+          "timestamp" : "2016-08-11T03:40:33Z"
+        }
+      }
+    },
+    "support" : {
+      "email" : "vle@uni.ac.uk"
+    },
+    "service_owner" : {
+      "@id" : "ServiceOwner",
+      "service_owner_name" : {
+        "default_value" : "University of JISC",
+        "key" : "service_owner.name"
+      },
+      "description" : {
+        "default_value" : "A Higher Education establishment in a land far, far away.",
+        "key" : "service_owner.description"
+      },
+      "support" : {
+        "email" : "vle@uni.ac.uk"
+      }
+    }
+  },
+  "capability_offered" : [
+    "ToolConsumerProfile.url"
+  ],
+  "service_offered" : [
+    {
+      "@type":"RestService",
+      "@id" : "tcp:ToolConsumerProfile",
+      "endpoint" : "http://ltiapps.net/test/tc-profile.php/4f3c348a7e040a0df3a95f1241250bc3",
+      "format" : ["application/vnd.ims.lti.v2.toolconsumerprofile+json"],
+      "action" : ["GET"]
+    },
+    {
+      "@type":"RestService",
+      "@id" : "tcp:ToolProxy.collection",
+      "endpoint" : "http://ltiapps.net/test/tc-toolproxy.php/4f3c348a7e040a0df3a95f1241250bc3",
+      "format" : ["application/vnd.ims.lti.v2.toolproxy+json"],
+      "action" : ["POST"]
+    }
+  ]
+}

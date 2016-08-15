@@ -1,0 +1,127 @@
+{
+  "@id" : "http://ltiapps.net/test/tc-profile.php/4f3c348a7e040a0df3a95f1241250bc3",
+  "@type" : "http://purl.imsglobal.org/vocab/lti/v2/lti#ToolConsumerProfile",
+  "http://purl.imsglobal.org/vocab/lti/v2/lti#capability_offered" : {
+    "@id" : "ToolConsumerProfile.url"
+  },
+  "http://purl.imsglobal.org/vocab/lti/v2/lti#guid" : {
+    "@type" : "http://purl.imsglobal.org/xsd/lti/v2/ltid#GUID.Type",
+    "@value" : "4f3c348a7e040a0df3a95f1241250bc3"
+  },
+  "http://purl.imsglobal.org/vocab/lti/v2/lti#lti_version" : {
+    "@type" : "http://www.w3.org/2001/XMLSchema#normalizedString",
+    "@value" : "LTI-2p0"
+  },
+  "http://purl.imsglobal.org/vocab/lti/v2/lti#product_instance" : {
+    "http://purl.imsglobal.org/vocab/lti/v2/lti#guid" : {
+      "@type" : "http://purl.imsglobal.org/xsd/lti/v2/ltid#GUID.Type",
+      "@value" : "vle.uni.ac.uk"
+    },
+    "http://purl.imsglobal.org/vocab/lti/v2/lti#product_info" : {
+      "http://purl.imsglobal.org/vocab/lti/v2/lti#product_family" : {
+        "http://purl.imsglobal.org/vocab/lti/v2/lti#code" : {
+          "@type" : "http://purl.imsglobal.org/xsd/lti/v2/ltid#Token.Type",
+          "@value" : "jisc"
+        },
+        "http://purl.imsglobal.org/vocab/lti/v2/lti#vendor" : {
+          "http://purl.imsglobal.org/vocab/lti/v2/lti#code" : {
+            "@type" : "http://purl.imsglobal.org/xsd/lti/v2/ltid#Token.Type",
+            "@value" : "celtic-project.org"
+          },
+          "http://purl.imsglobal.org/vocab/lti/v2/lti#timestamp" : {
+            "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value" : "2016-08-11T03:40:33Z"
+          },
+          "http://purl.imsglobal.org/vocab/lti/v2/lti#vendor_name" : {
+            "http://purl.imsglobal.org/vocab/lti/v2/lti#default_value" : {
+              "@type" : "http://purl.imsglobal.org/xsd/lti/v2/ltid#Text.Type",
+              "@value" : "ceLTIc: Creating Environments for Learning using Tightly Integrated Components"
+            },
+            "http://purl.imsglobal.org/vocab/lti/v2/lti#key" : {
+              "@type" : "http://purl.imsglobal.org/xsd/lti/v2/ltid#Name.Type",
+              "@value" : "product.vendor.name"
+            }
+          }
+        }
+      },
+      "http://purl.imsglobal.org/vocab/lti/v2/lti#product_name" : {
+        "http://purl.imsglobal.org/vocab/lti/v2/lti#default_value" : {
+          "@type" : "http://purl.imsglobal.org/xsd/lti/v2/ltid#Text.Type",
+          "@value" : "ltiapps.net"
+        },
+        "http://purl.imsglobal.org/vocab/lti/v2/lti#key" : {
+          "@type" : "http://purl.imsglobal.org/xsd/lti/v2/ltid#Name.Type",
+          "@value" : "product.name"
+        }
+      },
+      "http://purl.imsglobal.org/vocab/lti/v2/lti#product_version" : {
+        "@type" : "http://www.w3.org/2001/XMLSchema#normalizedString",
+        "@value" : "1.2"
+      }
+    },
+    "http://purl.imsglobal.org/vocab/lti/v2/lti#service_owner" : {
+      "@id" : "ServiceOwner",
+      "http://purl.imsglobal.org/vocab/lti/v2/lti#description" : {
+        "http://purl.imsglobal.org/vocab/lti/v2/lti#default_value" : {
+          "@type" : "http://purl.imsglobal.org/xsd/lti/v2/ltid#Text.Type",
+          "@value" : "A Higher Education establishment in a land far, far away."
+        },
+        "http://purl.imsglobal.org/vocab/lti/v2/lti#key" : {
+          "@type" : "http://purl.imsglobal.org/xsd/lti/v2/ltid#Name.Type",
+          "@value" : "service_owner.description"
+        }
+      },
+      "http://purl.imsglobal.org/vocab/lti/v2/lti#service_owner_name" : {
+        "http://purl.imsglobal.org/vocab/lti/v2/lti#default_value" : {
+          "@type" : "http://purl.imsglobal.org/xsd/lti/v2/ltid#Text.Type",
+          "@value" : "University of JISC"
+        },
+        "http://purl.imsglobal.org/vocab/lti/v2/lti#key" : {
+          "@type" : "http://purl.imsglobal.org/xsd/lti/v2/ltid#Name.Type",
+          "@value" : "service_owner.name"
+        }
+      },
+      "http://purl.imsglobal.org/vocab/lti/v2/lti#support" : {
+        "http://purl.imsglobal.org/vocab/lti/v2/lti#email" : {
+          "@type" : "http://www.w3.org/2001/XMLSchema#normalizedString",
+          "@value" : "vle@uni.ac.uk"
+        }
+      }
+    },
+    "http://purl.imsglobal.org/vocab/lti/v2/lti#support" : {
+      "http://purl.imsglobal.org/vocab/lti/v2/lti#email" : {
+        "@type" : "http://www.w3.org/2001/XMLSchema#normalizedString",
+        "@value" : "vle@uni.ac.uk"
+      }
+    }
+  },
+  "http://purl.imsglobal.org/vocab/lti/v2/lti#service_offered" : [ {
+    "@id" : "http://ltiapps.net/test/tc-profile.php/4f3c348a7e040a0df3a95f1241250bc3#ToolConsumerProfile",
+    "@type" : "http://purl.imsglobal.org/vocab/lti/v2/lti#RestService",
+    "http://purl.imsglobal.org/vocab/lti/v2/lti#action" : {
+      "@id" : "GET"
+    },
+    "http://purl.imsglobal.org/vocab/lti/v2/lti#endpoint" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+      "@value" : "http://ltiapps.net/test/tc-profile.php/4f3c348a7e040a0df3a95f1241250bc3"
+    },
+    "http://purl.imsglobal.org/vocab/lti/v2/lti#format" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#normalizedString",
+      "@value" : "application/vnd.ims.lti.v2.toolconsumerprofile+json"
+    }
+  }, {
+    "@id" : "http://ltiapps.net/test/tc-profile.php/4f3c348a7e040a0df3a95f1241250bc3#ToolProxy.collection",
+    "@type" : "http://purl.imsglobal.org/vocab/lti/v2/lti#RestService",
+    "http://purl.imsglobal.org/vocab/lti/v2/lti#action" : {
+      "@id" : "POST"
+    },
+    "http://purl.imsglobal.org/vocab/lti/v2/lti#endpoint" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+      "@value" : "http://ltiapps.net/test/tc-toolproxy.php/4f3c348a7e040a0df3a95f1241250bc3"
+    },
+    "http://purl.imsglobal.org/vocab/lti/v2/lti#format" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#normalizedString",
+      "@value" : "application/vnd.ims.lti.v2.toolproxy+json"
+    }
+  } ]
+}
